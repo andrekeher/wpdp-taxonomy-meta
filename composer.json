@@ -1,0 +1,18 @@
+{
+    "name": "andrekeher/wpdp-taxonomy-meta",
+    "description": "Helps in a new metabox creation in Wordpress.",
+    "homepage": "https://github.com/andrekeher/wpdp-taxonomy-meta",
+	"keywords": [
+        "wordpress",
+        "taxonomy",
+		"meta"
+    ],
+	"type": "plugin",
+    "license": "MIT",
+    "require": {},
+	"autoload": {
+		"psr-4": {
+			"AndreKeher\\WPDP\\" : "src/"
+		}
+	}
+}
