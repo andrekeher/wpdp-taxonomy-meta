@@ -111,7 +111,7 @@ class TaxonomyMeta
      *
      * @return void
      */
-    public function save(int $term, int $ttId = null)
+    public function save($term, $ttId = null)
     {
         extract($_POST);
         if (empty($term) || ! isset($taxonomy) || ! in_array($taxonomy, $this->taxonomies)) {
